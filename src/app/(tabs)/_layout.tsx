@@ -74,19 +74,6 @@ export default function TabsLayout() {
 					),
 				}}
 			/>
-			<Tabs.Screen
-				name='profile'
-				options={{
-					title: 'Profile',
-					tabBarIcon: ({ focused }) => (
-						<IconSymbol
-							name='person.crop.circle.fill'
-							size={26}
-							color={focused ? 'green' : 'gray'}
-						/>
-					),
-				}}
-			/>
 		</Tabs>
 	);
 }

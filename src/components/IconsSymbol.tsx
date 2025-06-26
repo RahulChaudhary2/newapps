@@ -30,17 +30,27 @@ export type IconSymbolProps = TextProps & {
  * - see SF Symbols in the [SF Symbols](https://developer.apple.com/sf-symbols/) app.
  */
 const MAPPING = {
-	'house.fill': 'home',           // home
+	'house.fill': 'home', // home
 	'globe.europe.africa.fill': 'explore', // discover
-	'magnifyingglass': 'search',    // search
-	'bookmark.fill': 'bookmark',    // saved
+	magnifyingglass: 'search', // search
+	'bookmark.fill': 'bookmark', // saved - filled bookmark
+	bookmark: 'bookmark-border', // saved - empty bookmark
 	'person.crop.circle.fill': 'person', // profile
 
 	// existing mappings
 	'paperplane.fill': 'send',
-	'chevron.left.forwardslash.chevron.right': 'code',
+	'chevron.left.forwardslash.chevron.right': 'chevron-left',
 	'chevron.right': 'chevron-right',
+	'chevron.left': 'chevron-left',
 	'newspaper.fill': 'article',
+	'heart.fill': 'favorite',
+	'eye.fill': 'visibility',
+
+	// search related icons
+	'xmark.circle.fill': 'cancel',
+	clock: 'history',
+	'flame.fill': 'whatshot',
+	trash: 'delete', // trash/delete icon
 } as IconMapping;
 
 /**
